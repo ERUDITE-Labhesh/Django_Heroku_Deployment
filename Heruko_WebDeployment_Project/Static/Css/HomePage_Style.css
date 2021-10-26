@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: red;
+    
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    text-align: center;
+    font-family: courier New, Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p{
+    text-align: center;
+    color: white;
+}
