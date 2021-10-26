@@ -27,7 +27,7 @@ SECRET_KEY = '#((6l(98uig0ez_bu6s%y2riev-qt^o&zc+^qorm&=%q)^@^j3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://deploy-consultadd-homepage.herokuapp.com',
+ALLOWED_HOSTS = ['https://consultadd-homepage.herokuapp.com',
 'localhost', 
 '127.0.0.1']
 
