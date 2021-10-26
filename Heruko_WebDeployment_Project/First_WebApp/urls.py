@@ -3,5 +3,6 @@ from First_WebApp import views
 
 
 urlpatterns = [
-    url(r'^$', views.home, name = " Home Page"),
+    url('hp', views.home, name="Home Page"),
+    url('test', views.index, name="index"),
 ]

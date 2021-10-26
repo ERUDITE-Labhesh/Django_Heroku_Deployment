@@ -7,4 +7,5 @@ def home(request):
     dir_name = {'insert_me': "Hello Labhesh in Consultadd Inc" }
     return render(request,'First_WebApp\HomePage.html', context = dir_name)
 
-
+def index(request):
+    return HttpResponse(" Hello World")

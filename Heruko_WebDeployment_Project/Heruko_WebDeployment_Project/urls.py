@@ -22,6 +22,6 @@ from First_WebApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$',views.home, name = 'Home Page'),
-    url(r'^$', include('First_WebApp.urls')),
+    url('Home_page',views.home, name = 'Home Page'),
+    url('FirstWebApp/', include('First_WebApp.urls')),
 ]
